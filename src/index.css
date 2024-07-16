@@ -32,3 +32,17 @@ body {
     background-color: var(--background);
     height: 100vh;
 }
+
+@media (max-width: 480px) {
+    :root {
+        --app-width: 100%;
+        --card-width: 100%;
+        font-size: 14px;
+    }
+
+    #root {
+        padding: 10px;
+    }
+
+    
+}
