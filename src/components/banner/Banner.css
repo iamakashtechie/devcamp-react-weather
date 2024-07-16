@@ -40,3 +40,20 @@
 .banner .image img {
     width: 14rem;
 }
+
+@media (max-width: 480px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+        background: hsla(0, 0%, 100%, 0.13);
+        border-radius: 12px;
+        padding: 1rem;
+        color: white;
+    }
+
+    
+}
