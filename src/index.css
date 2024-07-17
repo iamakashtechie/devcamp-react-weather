@@ -36,7 +36,7 @@ body {
 @media (max-width: 480px) {
     :root {
         --app-width: 100vw;
-        --card-width: 100%;
+        --card-width: 100vw;
         font-size: 14px;
     }
 
